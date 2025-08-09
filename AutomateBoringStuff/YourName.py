@@ -3,7 +3,7 @@
 print('Please input your name(that is if youre not scared :) ') #ask for sb's name
 myName = input()
 print('Just kidding, kiddo!, I just wanted to meet you.')
-print('hi! Dummy!, oh, thats not what you typed in? Oh, right, hi, ' + myName + '!')
+print('hi! Dummy!, oh, thats not what you typed in? Oh, right, hi, ' + myName + '!') #Here the expression evaluates to one string, so whatever is concatenated is just kinda joined to the main expression
 print('May I ask your age?')
 myAge = input()
 print('I found out that the length of your name is: ')
@@ -16,4 +16,4 @@ print('Also, in a year youll be: ' + str(int(myAge) + 1) + ' years old!') #int, 
 #Obviosly whatevers in parentheses of a function is an argument(duh)
 #Calling print with no arguments just prints a blank line
 #Input just reads whatever the user types so assigning a value to input() is like assigning an uknown value that the user types in. it evaluates into a string, hence why we had to first type cast to integer(integer cast it)
-
+#The input() vakue always returns a string
