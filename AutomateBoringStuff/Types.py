@@ -1,7 +1,7 @@
 #type() is a function that returns the type of an expression
 #For instance
-type(42)                #Returns int
-type('string object')   #Returns str
-input()
+print(type(42))                #Returns int
+print(type('string object'))   #Returns str
+
 
 
